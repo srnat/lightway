@@ -1,0 +1,114 @@
+*
+{
+	box-sizing: border-box;
+	moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+}
+body {
+	margin:0;
+	font-size: 13px;
+	line-height: 2.092857143;
+	font-family: 'Hind', sans-serif;
+	color: #4682B4;
+}
+
+
+#top-header {
+  background: url(../img/fba7da61.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DADADA;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+	display: inline;
+}
+
+#header {
+	border:1px solid #000;
+	min-width:1004px;
+}
+
+.pull-left{
+	border:1px solid #000;
+	width:628px;
+	/*position: relative;*/
+}
+.pull-right{
+	border:1px solid #000;
+	width:376px;
+/*	position: relative;*/
+	float:right;
+}
+
+#navigation {
+	border:1px solid #000;	
+	background-color: #00BFFF;
+}
+
+.container
+{
+	border:1px solid #FF0000;
+	margin-left: auto;
+margin-right: auto;
+padding: 0px;
+}
+
+@media (min-width:768px)
+{
+	.container
+	{
+		width: 1004px;/*750*/
+	}
+}
+@media (min-width:992px)
+{
+	.container
+	{
+		width: 1004px;/*100%*/
+	}
+}
+@media (min-width:1200px)
+{
+	.container
+	{
+		width: 1170px;/*1170*/
+	}
+}
+
+#main {
+	min-width:1004px;
+}
+
+#right-menu
+{
+	border: 1px solid #00BFFF;
+	float:right;
+	width:230px;
+	height:390px; /* test */
+}
+/*
+#mid {
+
+	float:left;
+	width:938px;
+}
+*/
+#left-menu
+{
+	border: 1px solid #00BFFF;
+	float:left;
+	width:240px;
+	height:390px; /* test */
+
+}
+/**/
+#content {
+	border: 1px solid #0000FF;
+}
+/**/
