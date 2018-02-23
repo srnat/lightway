@@ -25,8 +25,33 @@ ul, ol {
 	padding: 0;
 	list-style: none;
 }
-li {
+
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+    color: #FF8C00;
+    text-decoration: none;
+    outline: none;
+}
+
+.header-top-links {
 	display: inline;
+}
+
+.header-top-links li {
+    display: inline-block;
+}
+.header-top-links li a {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.pull-center a {
+	padding : 0px 35px;
 }
 
 #header {
@@ -37,12 +62,10 @@ li {
 .pull-left{
 	border:1px solid #000;
 	width:628px;
-	/*position: relative;*/
 }
 .pull-right{
 	border:1px solid #000;
 	width:376px;
-/*	position: relative;*/
 	float:right;
 }
 
@@ -53,10 +76,10 @@ li {
 
 .container
 {
-	border:1px solid #FF0000;
+	/*border:1px solid #FF0000;*/
 	margin-left: auto;
-margin-right: auto;
-padding: 0px;
+	margin-right: auto;
+	padding: 0px;
 }
 
 @media (min-width:768px)
