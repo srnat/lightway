@@ -1,3 +1,7 @@
+/*<!--[if IE]>
+<link href="ie.css" rel="stylesheet" type="text/css" /!>
+<[endif]-->
+*/
 html
 {
 	font-family: sans-serif;
@@ -7,6 +11,7 @@ html
 body
 {
 	margin: 0;
+
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary
 {
@@ -1350,8 +1355,9 @@ body
 	background-color: #FFF;
 	color: #333;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.92857143;
+	font-size: 13px;
+	line-height: 2.092857143;
+
 }
 button,input,select,textarea
 {
@@ -1822,28 +1828,28 @@ pre code
 {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 @media (min-width:768px)
 {
 	.container
 	{
-		width: 750px;
+		width: 750px;/*750*/
 	}
 }
 @media (min-width:992px)
 {
 	.container
 	{
-		width: 970px;
+		width: 100%;/*100%*/
 	}
 }
 @media (min-width:1200px)
 {
 	.container
 	{
-		width: 1170px;
+		width: 1170px;/*1170*/
 	}
 }
 .container-fluid
