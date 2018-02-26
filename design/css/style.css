@@ -61,12 +61,11 @@ Table OF Contents
 /*----------------------------*\
 	Typography
 \*----------------------------*/
-
 body {
   font-family: 'Hind', sans-serif;
   color: #4682B4;
   overflow-x: hidden;
-  background-image:url(../img/background42.jpg);
+  background-image:url(../img/bg-light-4863.png);
 }
 
 h1, h2,  h4, h3, h5, h6 {
@@ -259,7 +258,7 @@ textarea.input {
 
 .section-grey {
   background: #F6F7F8;
-  background: url(../img/fba7da61.png);
+  background: url(../img/footer.jpg);
 }
 
 .section-title {
@@ -475,7 +474,8 @@ textarea.input {
 ===========================================================*/
 
 #navigation {
-  background-color: #00BFFF;
+/*  background-color: #00BFFF;*/
+  background-image:url(../img/main-line.jpg);
 }
 
 #navigation .container {
@@ -495,7 +495,7 @@ textarea.input {
   padding: 16px;
   display: block;
   text-transform: uppercase;
-  background: #FF8C00;
+  background: url(../img/main-line-catalog.jpg);
   color: #FFF;
   font-weight: 700;
 }
@@ -853,7 +853,7 @@ textarea.input {
 .block-home-2 {
   background:#FFFFFF;/*url(../img/fba7da61.png);*/
 /*  box-shadow: 0 0 7px;*/
-  height: 390px;
+  height: 290px;
   width: 690px;
   border-top: 4px solid #F5F5F5;
   padding: 5px;
@@ -873,7 +873,7 @@ textarea.input {
   width: 230px;
   border-left: 2px solid #F5F5F5;
   padding: 5px;
-  margin-top:15px;
+  margin-top:20px;
   float:right;
   display: block;
   margin-bottom:40px;
@@ -885,6 +885,7 @@ textarea.input {
 
 #home .home-wrap {
   margin-left: 230px;
+  width: 700px;
 }
 
 #home-slick .banner {
