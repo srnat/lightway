@@ -32,11 +32,11 @@
 }
 .carousel-button-left a{
    float: left; 
-   background: url(../images/carousel-left.png); 
+   background: url(../img/carousel-left.png); 
 }
 .carousel-button-right a{
    float: right;
-   background: url(../images/carousel-right.png); 
+   background: url(../img/carousel-right.png); 
 }
 
 /*********** SHADOW ***********/
