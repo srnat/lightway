@@ -1,0 +1,27 @@
+ #scroller_container {
+        margin: 0 auto;
+        width: 530px;
+        overflow: hidden;
+        line-height:0;
+        font-size:0;
+
+    }
+    #scroller_container div {
+        float: left;
+        vertical-align: baseline;
+    }
+    #scroller_container>div {
+        position: relative;
+        white-space: nowrap;
+        width: 100%;
+        padding: 22px 0;
+    }
+    #scroller_container>div a,
+    #scroller_container>div a img {
+        padding: 0;
+        margin:0;
+    }
+    #scroller_container>div a img {
+        margin: 0 1px;
+        border:0;
+    }
