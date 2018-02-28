@@ -1,4 +1,4 @@
-*
+﻿*
 {
 	box-sizing: border-box;
 	moz-box-sizing: border-box;
@@ -157,7 +157,7 @@ a:hover, a:focus {
 
 #navigation {
 	border:1px solid #000;	
-	background-color: #00BFFF;
+	background-image:url(../img/main-line.jpg);
 }
 
 .container
