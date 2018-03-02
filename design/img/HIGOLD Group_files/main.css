@@ -1,0 +1,37 @@
+
+
+
+.page_header .header_search{position:absolute;z-index: 2;display: none;background:#fff;overflow: hidden;}
+.page_header .header_search .container{}
+.page_header .header_search .search_area{float: left;padding-bottom: 10px;}
+.page_header .search_panel{line-height: 51px;width: 580px;background:#6593ee;color:#fff;font-size: 18px;padding:0 20px;margin:34px 0 0 52px}
+.page_header .search_panel input{width: 472px;height: 32px;margin-left:20px;line-height: 32px;border: none;}
+.page_header .search_condition{line-height: 28px;margin:20px 60px;width: 672px;}
+.page_header .search_condition td{vertical-align: top;}
+.page_header .search_condition .td_title{text-align: right;white-space:nowrap;}
+.page_header .search_condition,.page_header .search_condition a{color:#333}
+.page_header .search_condition a{margin-left: 0px;margin-right: 16px;}
+.page_header .search_condition .cur{color:#3460de}
+.page_header .search_link{overflow: hidden;margin-left: 52px;}
+.page_header .search_link a{display: block;float: left;line-height: 36px;text-align: center;font-size: 14px;width: 118px;}
+.page_header .search_link .search_btn{background:#6593ee;color:#fff}
+.page_header .search_link .search_clear{text-decoration: underline;color:#333}
+.page_header .search_quick{float: right;width: 204px;}
+.page_header .search_quick img{vertical-align: top;}
+.page_header .header_weixin_list{position:absolute;right: 0;width: 934px;z-index: 2;background:#fff;display: none;}
+.page_header .header_weixin_list .swiper-container{width: 848px;}
+.page_header .header_weixin_list .swiper-slide{text-align: center;padding:24px 0 34px}
+.page_header .header_weixin_list .swiper-slide img{border:1px solid #e5e5e5}
+.page_header .header_weixin_list .cur{color:#3460de;background: #f6f6f6;}
+.page_header .header_weixin_list .button_next,.page_header .header_weixin_list .button_prev{width:56px;text-align: center;}
+.page_header .header_weibo_list{position:absolute;right: 0;width: 270px;z-index: 2;background:#fff;display: none;}
+.page_header .header_weibo_list div{border-bottom: 1px solid #ededed;}
+
+/* banner*/
+.index_banner .swiper-slide div{height: 546px;background:no-repeat center}
+.index_banner .swiper-pagination-bullet{border-radius: 0;opacity: 1;background: #fff;width: 14px;height: 14px;}
+.index_banner .swiper-pagination-bullet-active{background: #3568df;} 
+.index_banner .swiper-pagination {position: absolute;bottom: 10px;width: 100%;text-align: center;}
+.index_banner .swiper-pagination-switch {display: inline-block;width: 14px;height: 14px;background: #fff;margin: 0 5px;cursor: pointer;}
+.index_banner .swiper-active-switch {background: #3568df;}
+

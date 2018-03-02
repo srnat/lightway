@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+*{ padding:0; margin:0}
+html,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img,form,embed,label{margin:0;padding:0;border:0; font-size:12px; font-weight:normal;}
+img{border:none}
+object{ display:block;}
+ul,ul li{ list-style:none;} 
+.cls{clear:both; line-height:0px!important; height:0px!important;font-size:0px!important;} 
+.play{ display:none;} 
+select,input{ vertical-align:middle;font-size:12px;}  
+a {color:#4e4e4e;text-decoration:none;}
+a:visited {color:#4e4e4e;text-decoration:none;}
+a:hover {color:#0193d7;}
+a:active {color:#0193d7;}
+.dis{display:block;}
+.undis{display:none;}
+.hidden{ display:none}
+
+
+/*basic*/ 
+body{margin:0px; padding:0px;font-family:"\5B8B\4F53", Arial, Helvetica, sans-serif; font-size:12px;color:#4d4d4d;}  
+
+.headright{ float:left; width:800px;}
+.headone{ float:right; height:29px; padding-top:9px; padding-right:10px;}
+.lang{ float:right; padding-top:5px;}
+.wrap .lang a{ color:#808080}
+.wrap .lang a:hover{ color:#0193d7}
+
+/*2017-06.顶部menu菜单导航 nav*/
+.nav{ float:left; width:100%;}
+.navlist li{ float:left; width:110px; text-align:center; line-height:39px; margin-right:0px; display:inline; font-size:17px;font-family:"\5FAE\8F6F\96C5\9ED1"; position:relative; }
+.navlist li.hover{ width:110px; z-index:111111;}
+.wrap .navlist li.hover a{ color:#fff}
+
+.wrap .navlist li a{ display:block;color:#585656; font-weight:bold;}
+.navbox{ position:absolute; top:0; left:0; width:119px; display:none;}
+.navboxtitle{background:url(http://www.higold.com.cn/images/bg_nav3.jpg) no-repeat; float:left; width:119px; line-height:39px; font-size:17px;}
+
+.navboxbg1{ background:url(http://www.higold.com.cn/images/bg_nav4.png) no-repeat; width:119px; height:210px; float:left; overflow:hidden; padding-top:4px;}
+.navbuju{background:url(http://www.higold.com.cn/images/bg_nav4.png) 0 -110px no-repeat;}
+.navbgone{background:url(http://www.higold.com.cn/images/bg_nav4.png) 0 -25px no-repeat;}
+
+.navlist li.hover ul li{ float:left; width:103px; text-align:center; line-height:28px; background:none; padding:0 8px;}
+.wrap .navlist li.hover ul li a{ color:#696969; font-weight:normal;text-align:center; font-size:12px}
+.wrap .navlist li.hover ul li a:hover{ color:#0193d7}
+
+.navlist li.hover .navnews ul li{ float:left;  text-align:center; line-height:16px; padding:6px 8px; background:none}
+
+/*1.18*/
+
+.nnlist li{ float:left; width:350px; border-bottom:1px dotted #777; line-height:23px;}
+.npic{ float:left; width:86px; height:240px; border-right:1px dotted #777; padding-right:7px; padding-top:0px;}
+.index_nword{ float:right; width:350px;text-align:left; font-size:17px;word-wrap:break-word}
+.nword h2{border-bottom:1px dotted #777; font-weight:bold; padding-left:4px; padding-top:4px;}
+.nword p{ padding-left:4px;}
+.nnlist li.last{ border-bottom:none; padding-bottom:0px;}
+.nnlist li.first{ padding-top:0;}
+
+/*4.29新闻*/
+.newsword{ float:left; width:260px;text-align:left; font-size:13px;word-wrap:break-word}
+.newspic{ float:left; width:260px; height:180px; padding-right:7px; padding-top:8px;}
+.nnlist li.newsfirst{ padding-top:8;}
+
+/*9.22PC端中文首页公司导航*/
+li{list-style:none;}
+#tab1,#tab2{width:1112px;height:171px;border:0px #cfedff solid;border-bottom:0;} 
+#tab1 ul,#tab2 ul{margin:0;padding:0;}
+#tab1 li,#tab2 li{float:left;padding:0 0px;height:171px;line-height:4px;text-align:center;border-right:0px #ebf7ff solid;cursor:pointer;}
+#tab1 li.now,#tab2 li.now{color:#5299c4;background:#fff;font-weight:bold;}
+.tablist{width:1112px;height:506px;padding:0px;font-size:14px;line-height:0px;border:0px #cfedff solid;border-top:0;display:none;}
+.block{display:block;}
+
+
+/*4.29PC端中文首页公司导航
+li{list-style:none;}
+#tab1,#tab2{width:1112px;height:166px;border:0px #cfedff solid;border-bottom:0;} 
+#tab1 ul,#tab2 ul{margin:0;padding:0;}
+#tab1 li,#tab2 li{float:left;padding:0 0px;height:166px;line-height:4px;text-align:center;border-right:0px #ebf7ff solid;cursor:pointer;}
+#tab1 li.now,#tab2 li.now{color:#5299c4;background:#fff;font-weight:bold;}
+.tablist{width:1112px;height:506px;padding:0px;font-size:14px;line-height:0px;border:0px #cfedff solid;border-top:0;display:none;}
+.block{display:block;}
+*/
+
+
+.bottom{ color:#000000;text-align:center; font-size:18px}
+
+/*div{width:1160px;}*/
