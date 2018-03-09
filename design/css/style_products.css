@@ -1304,7 +1304,7 @@ ul.grid_2 li {
 	font-size: 0.8725em;
 }
 .w_nav1 ul li a:hover{
-	color:#00405d;
+	color:#FF8C00;
 }
 .w_nav2{
 	padding: 20px;
@@ -1740,11 +1740,11 @@ list-style: none;
 }
 .w_nav li a{
 	display: block;
-	color:#555555;
+/*	color:#555555;*/
 	text-transform:capitalize;
 }
 .w_nav li a:hover{
-	color: #00405d;
+/*	color: #00405d;*/
 }
 .grids_of_4{
 	display:block;
@@ -1756,6 +1756,7 @@ list-style: none;
 	margin-left: 2.33333%;
 	text-align:center;
 	background-color:#fff;
+	border:solid 2px #dadada;
 }
 .grid1_of_4:first-child{
 	margin-left: 0;
@@ -2481,14 +2482,14 @@ ul.s_icons{
 .shoping_right p span.color{
 	color: #00405d;
 }
-h4.title {
+/*h4.title {
   color: #ff6978;
   margin-bottom: 0.5em;
   font-size: 1.6em;
   line-height: 1.2em;
   background: #F7F7F7;
   padding: 1em;
-}
+}*/
 p.cart {
   color: #777;
   font-size: 1.2em;
