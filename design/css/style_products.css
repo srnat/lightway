@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
-h4, h5, h6,
+/*h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
@@ -19,7 +19,13 @@ body1 a1{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-}
+}*/
+
+
+.enter{
+	color:black;
+	font-weight:bold;
+	}
 /*----*/
 .itemContainer{
 			width:100%;
@@ -440,27 +446,27 @@ select.item_Size {
   border: none;
 }
 /********** Login *************/
-/*#loginContainer {
+#loginContainer {
     position:relative;
 }
 #loginContainer a span {
   display: block;
-  padding: 2px 14px;
-  border: 1px solid #555;
+  /*padding: 2px 14px;
+  border: 1px solid #555;*/
   font-weight: 300;
 }
 /* Login Button */
-/*#loginButton { 
+#loginButton { 
     display:inline-block;  
     position:relative;
     z-index:30;
     cursor:pointer;
 }
 /* Login Box */
-/*#loginBox {
+#loginBox {
     position:absolute;
 	top: 44px;
-	right: 0px;
+	/*right: 0px;*/
     display:none;
     z-index:29;
 }
@@ -474,10 +480,13 @@ select.item_Size {
 	border-bottom: 10px solid #f0f0f0;
 }
 /* Login Form */
-/*#loginForm {
-   width: 300px;
+#loginForm {
+    width: 250px;
 	background: #fff;
-	border: 1px solid #d6d6d6;
+	/*border: 1px solid #d6d6d6;*/
+    -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
+	border-top:2px solid #FF8C00;
 }
 #loginForm fieldset {
     margin:0 0 15px 0;
@@ -501,7 +510,7 @@ fieldset#body {
     border:0;
     *margin:-3px 9px 0 0; /* IE7 Fix */
 }
-/*#body label {
+/#body label {
     color:#000;
     margin:10px 0 0 0;
     display:block;
@@ -519,7 +528,7 @@ fieldset#body {
 	font-style:normal;
 }
 /* Default Input */
-/*#loginForm input {
+#loginForm input {
     width:92%;
     border:1px solid #DADADA;
 	color: #222;
@@ -530,11 +539,11 @@ fieldset#body {
     font-family: 'Open Sans', sans-serif;
 }
 /* Sign In Button */
-/*#loginForm #login {
+#loginForm #login {
 	font-family: 'Open Sans', sans-serif;
 	width: auto;
 	float: left;
-	background:#ff6978 ;
+	background:#FF8C00 ;
 	color: #fff;
 	font-size: 0.8725em;
 	padding: 8px 20px;
@@ -547,10 +556,10 @@ fieldset#body {
 	-o-transition: all .5s;
 }
 #loginForm #login:hover {
-	background: #00405d;
+	background: #00BFFF;
 }
 /* Forgot your password */
-/*#loginForm span{
+#loginForm span{
     display:block;
     padding:0px 0px 15px 17px;
 }
@@ -617,7 +626,7 @@ input:focus {
 	height: 24px;
 	top: 6px;
 	right: 5px;
-}
+}*/
 .log {
   float: left;
   width: 19%;
@@ -628,7 +637,7 @@ input:focus {
   margin: 5px 0;
 }
 /* create_btn */
-/*.create_btn {
+.create_btn {
   float: left;
   width: 21%;
 }
@@ -1087,7 +1096,7 @@ i.goog:hover{
   float: left;
   width: 21.5%;
 }
-.footer h4 {
+/*.footer h4 {
   color: #3f3d3d;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -1095,7 +1104,7 @@ i.goog:hover{
 }
 .footer {
   padding: 3em 0;
-}
+}*/
 i.phone {
   width: 19px;
   height: 21px;
@@ -1249,9 +1258,9 @@ display:block;
   font-weight: 400;*/
   line-height: 1.8em;
 }
-.footer p a{
+/*.footer p a{
 text-decoration:none;
-}
+}*/
 ul.grid_2 {
   padding: 0;
 }
@@ -1712,20 +1721,20 @@ list-style: none;
 }
 /*-- end scrollpane --*/
 /*-- start w_content --*/
-.women_main{
+.sort_main{
 	padding:2em 0;
 }
-.women{
+.sort{
 	text-align: left;
 	border-bottom: 1px solid #ebebeb;
 }
-.women h4{
+.sort h4{
 	float:left;
 	font-size:1em;
 	text-transform:uppercase;
 	color: #333333;
 }
-.women h4{
+.sort h4{
 	color:#555555;
 }
 .w_nav {
@@ -2014,7 +2023,7 @@ p.prod-desc {
 	padding: 3% 0 4%;
 }
 .product {
-	padding: 3% 0 0 0;
+	padding: 10px 0 0 0;
 }
 .product-desc {
 	width: 82.3333%;
@@ -2265,7 +2274,7 @@ label {
 	color: #ffffff;
 	text-transform: capitalize;
 	display: inline-block;
-	background:#ff6978;
+	background:#FF8C00;
 	padding: 10px 20px;
 	transition: 0.5s ease;
 	-moz-transition: 0.5s ease;
@@ -2279,7 +2288,7 @@ label {
 }
 .registration_form input[type="submit"]:hover{
 	color: #ffffff;
-	background:#00405d;
+	background:#00BFFF;
 }
 .terms{
 	text-decoration:underline;
@@ -2656,12 +2665,12 @@ p.cart a {
 .btn-1 form input[type="submit"] {
   font-size: 0.93em;
 }
-.footer {
+/*.footer {
   padding: 2em 0;
 }
 .footer h4 {
   font-size: 1em;
-}
+}*/
 .cust li a {
   font-size: 0.9em;
 }
@@ -2882,7 +2891,7 @@ i.ars {
   float: left;
   width: 19%;
 }
-.footer h4 {
+/*.footer h4 {
   font-size: 0.875em;
 }
 .cr_btn1 a {
@@ -2895,7 +2904,7 @@ i.ars {
 }
 .footer {
   padding: 2em 0 1em;
-}
+}*/
 .box_1 {
   width: 41%;
 }
@@ -3076,9 +3085,9 @@ i.ars {
 .our-st li {
   font-size: 0.875em;
 }
-.footer h4 {
+/*.footer h4 {
   font-size: 0.8125em;
-}
+}*/
 .box_1 {
   float: left;
   margin: 0.3em 0.1em 0;
@@ -3259,9 +3268,9 @@ ul.grid_2 li {
   width: 100%;
   margin: 1.5em 0 0;
 }
-.footer p{
+/*.footer p{
 margin:1em 0 0;
-}
+}*/
 .check {
   padding: 2em 0;
 }
@@ -3275,6 +3284,7 @@ margin:1em 0 0;
 .box_1 {
   width: 62%;
 }
+
 }
 @media (max-width:320px){
 ul.icon1 {
@@ -3314,8 +3324,8 @@ ul.icon1 {
   display: none;
 }
 #loginContainer a span {
-  padding: 2px 10px;
-  font-size: 1em;
+/*  padding: 2px 10px;
+  font-size: 1em;*/
 }
 .rgt-bottom {
   margin: 0;
@@ -3374,9 +3384,9 @@ ul.icon1 {
 .special h6 {
   font-size: 0.75em;
 }
-.footer h4 {
+/*.footer h4 {
   font-size: 0.8em;
-}
+}*/
 .cust li a {
   font-size: 0.8em;
 }
@@ -3598,5 +3608,6 @@ a.cpns {
   width: 100%;
   margin:0;
 }
+
 }
 
