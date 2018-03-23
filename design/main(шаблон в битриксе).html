@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <head><?$APPLICATION->ShowHead()?>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
       <meta name="description" content="Раковины,мойки,смесители,фурнитура для мебели,выдвижные системы,higold,dtc">
       <meta name="keywords" content="Раковины,мойки,выдвижные системы,смесители,фурнитура,кухонные комплектующие,аксессуары для мебели.">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Интернет магазин Лайт вэй</title>
+      <title><?$APPLICATION->ShowTitle()?>Интернет магазин Лайт вэй</title>
 	   
 	  <link rel="SHORTCUT ICON" href="/bitrix/templates/main/favicon.ico" type="image/x-icon">
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
-	  <script src="js/carousel.js"></script> 
-      <script src="js/menu_jquery.js"></script> 
+	  <script src="<?=SITE_TEMPLATE_PATH?>/js/carousel.js"></script> 
+      <script src="<?=SITE_TEMPLATE_PATH?>/js/menu_jquery.js"></script> 
 	   
 	  <script src="http://code.jquery.com/jquery-latest.js"></script> 
 
-      <link rel="stylesheet" type="text/css" href="css/stylescarousel.css"> 
+      <link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/stylescarousel.css"> 
 	  <!-- Google font -->
       <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
       <!-- Bootstrap -->
-	   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/bootstrap.min.css" />
       <!-- Slick -->
-	   <link type="text/css" rel="stylesheet" href="css/slick.css" />
-	   <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+	   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/slick.css" />
+	   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/slick-theme.css" />
       <!-- nouislider -->
-	   <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+	   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/nouislider.min.css" />
       <!-- Font Awesome Icon -->
-      <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+      <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/font-awesome.min.css" />
        <!-- Custom stlylesheet -->
-      <link type="text/css" rel="stylesheet" href="css/style.css" />
+      <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/style.css" />
 
-	  <link href="css/style_products.css" rel='stylesheet' type='text/css' />
+	   <link type="text/css" rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/style-products.css" />
+	   <link href="<?=SITE_TEMPLATE_PATH?>/css/style_products.css" rel='stylesheet' type='text/css' />
 </head>
-<body>
+<body><?$APPLICATION->ShowPanel();?>
       <!-- HEADER -->
       <header>
          <!-- top Header -->
@@ -107,7 +108,7 @@
                   <!-- Logo -->
                   <div class="header-logo">
                      <a class="logo" href="index.html">
-                     <img src="img/logo.png" alt="">
+                     <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="">
                      </a>
                   </div>
                   <!-- /Logo -->
@@ -430,7 +431,7 @@
                <br>Компания "Лайт Вэй" предлагает
                Инновационные комплектующие 
                для кухонь и гардеробных.</br>
-               <img style="margin:10px 0px 0px 0px" src="img/logo1.jpg" >
+               <img style="margin:10px 0px 0px 0px" src="<?=SITE_TEMPLATE_PATH?>/img/logo1.jpg" >
             </div>
             <!-- home wrap -->
             <div class="home-wrap">
@@ -438,7 +439,7 @@
                <div id="home-slick">
                   <!-- banner -->
                   <div class="banner banner-1">
-                     <img src="img/dtc.jpg" alt="">
+                     <img src="<?=SITE_TEMPLATE_PATH?>/img/dtc.jpg" alt="">
                      <div class="banner-caption text-center">
                         <h1></h1>
                      </div>
@@ -446,14 +447,14 @@
                   <!-- /banner -->
                   <!-- banner -->
                   <div class="banner banner-1">
-                     <img src="img/banner00.jpg" alt="">
+                     <img src="<?=SITE_TEMPLATE_PATH?>/img/banner00.jpg" alt="">
                      <div class="banner-caption">
                      </div>
                   </div>
                   <!-- /banner -->
                   <!-- banner -->
                   <div class="banner banner-1">
-                     <img src="img/banner03.jpg" alt="">
+                     <img src="<?=SITE_TEMPLATE_PATH?>/img/banner03.jpg" alt="">
                      <div class="banner-caption">
                      </div>
                   </div>
@@ -482,8 +483,8 @@
             </h3>
          </div>
          <div class="block-home-3">
-			 <img src="img/dtc_benchmark.jpg" style=" width:98%; height:40%;">
-			 <img style="margin-top:20px" src="img/higold_brand.png" width="98%">
+			 <img src="<?=SITE_TEMPLATE_PATH?>/img/dtc_benchmark.jpg" style=" width:98%; height:40%;">
+			 <img style="margin-top:20px" src="<?=SITE_TEMPLATE_PATH?>/img/higold_brand.png" width="98%">
          </div>
       
 <!--carusel-->
@@ -493,28 +494,28 @@
 		<div class="carousel-wrapper"> 
 		   <div class="carousel-items"> 
 			  <div class="carousel-block">
-					<img src="img/corner_units.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/corner_units.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/base_units.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/base_units.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/larder_units.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/larder_units.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/lift_up_systems.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/lift_up_systems.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/corner_units_2.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/corner_units_2.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/base_units_2.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/base_units_2.jpg" alt="" />
 			  </div>
 			  <div class="carousel-block">
-					<img src="img/larder_units_2.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/larder_units_2.jpg" alt="" />
 			  </div>            
 			  <div class="carousel-block"> 
-					<img src="img/lift_up_systems_2.jpg" alt="" />
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/lift_up_systems_2.jpg" alt="" />
 			  </div>
 		   </div>
 		</div>
@@ -524,7 +525,7 @@
 <!-- /section -->
 <!--End carusel-->
 
-
+#WORK_AREA#
       <!-- FOOTER -->
       <footer id="footer" class="section section-grey">
          <!-- container -->
@@ -538,7 +539,7 @@
                      <!-- footer logo -->
                      <div class="footer-logo">
                         <a class="logo" href="#">
-                        <img src="img/logo.png" alt="">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/logo.png" alt="">
                         </a>
                      </div>
                      <!-- /footer logo -->
@@ -625,11 +626,11 @@
       <!-- /FOOTER -->
       <!-- jQuery Plugins -->
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/nouislider.min.js"></script>
-<script src="js/jquery.zoom.min.js"></script>
-<script src="js/main.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/slick.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/nouislider.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.zoom.min.js"></script>
+<script src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
    </body>
 </html>
